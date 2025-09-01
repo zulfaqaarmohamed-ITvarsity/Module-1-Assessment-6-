@@ -1,0 +1,41 @@
+.gallery img {
+	width: 100%; 
+    border: 5px solid black;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+     background-image: linear-gradient(to right, rgb(88, 238, 238), rgb(4, 8, 248));
+}
+
+#menu-bar a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image : url('images/menu-button.gif');
+    background-repeat: no-repeat;
+    display: block;
+    width: 128px;
+    height: 25px;
+    padding-left: 18px;
+    padding-top: 2px;
+    float: left;
+    color: black;
+} 
+
+#menu-bar a:hover{
+    background-image : url('images/menu-button-hover.gif');
+    color: white;
+}
